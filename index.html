@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Chairs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="message bot-message">Hello, how can I help you today?</div>
+        </div>
+        <div id="center-background"></div>
+        <div id="center-container">
+            <div id="center-message" class="message center-message"></div>
+            <button id="center-button" class="center-button" onclick="redirectToLink()">Explore Stellar Chairs</button>
+        </div>
+        <div class="input-box">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
