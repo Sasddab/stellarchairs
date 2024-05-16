@@ -29,5 +29,5 @@ function sendMessage() {
 }
 
 function redirectToLink() {
-    window.location.href = 'https:discord.gg/valoranthacks'; // Reemplaza 'https://www.example.com' con tu enlace real
+    window.location.href = 'https://discord.gg/valoranthacks'; // Reemplaza 'https://www.example.com' con tu enlace real
 }
